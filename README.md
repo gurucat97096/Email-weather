@@ -8,9 +8,10 @@ Jinja2 套件產生簡單 HTML Email 內容
 Clone 我的專案
 pip install requests jinja2 python-dotenv
 申請並填入 OpenWeatherMap API 金鑰
-
 填入資料到 .env 
 WEATHER_API_KEY=你的天氣API金鑰
 EMAIL_SENDER=你的Gmail帳號
 EMAIL_PASSWORD=Gmail應用程式密碼
 EMAIL_RECEIVER=收件人Email
+
+在終端輸入 python main.py
